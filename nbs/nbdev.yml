@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "traffic-infra"
+  site-url: "https://traffic-kowshik.github.io/traffic-infra"
+  description: "Infrastructure for traffic and mobility."
+  repo-branch: main
+  repo-url: "https://github.com/traffic-kowshik/traffic-infra"
