@@ -31,3 +31,22 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
+
+## SWAP memory
+
+```bash
+sudo swapon --show
+
+sudo fallocate -l 16G /swapfile
+sudo chmod 600 /swapfile
+
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+
+# Adding the line at the end of the file below.
+sudo nano /etc/fstab
+/swapfile none swap sw 0 0
+
+sudo sysctl vm.swappiness=10
+```
