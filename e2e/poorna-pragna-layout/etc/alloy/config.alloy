@@ -147,3 +147,17 @@ loki.source.file "logs_integrations_integrations_node_exporter_direct_scrape" {
   targets    = local.file_match.logs_integrations_integrations_node_exporter_direct_scrape.targets
   forward_to = [loki.write.grafana_cloud_loki.receiver]
 }
+
+local.file_match "logs_etl_jobs" {
+  path_targets = [{
+    __address__ = "localhost",
+    __path__    = "/home/traffic/code/traffic-kowshik/traffic-data-bengaluru/logs/*.log",
+    instance    = "traffic-data-bengaluru",
+    job         = "etl/traffic-data-bengaluru",
+  }]
+}
+
+loki.source.file "logs_etl_jobs" {
+  targets    = local.file_match.logs_etl_jobs.targets
+  forward_to = [loki.write.grafana_cloud_loki.receiver]
+}
