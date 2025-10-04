@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "traffic-infra",
+    "section": "",
+    "text": "Node Plan: E1LC-2.6GB\nConfiguration: 2 vCPU, 6 GB RAM, 150 GB Root Volume\nOS: Ubuntu 24.04 x86_64\nPlan: ₹450.32 per 30 days\nCreated On: 2025-10-04 11:14:12\nReference: Docs\n\nReserved Public IP\n\nPublic IP address: 1x\nPlan: ₹199.0 per month\nReference: Docs",
+    "crumbs": [
+      "traffic-infra"
+    ]
+  },
+  {
+    "objectID": "index.html#e2e-networks",
+    "href": "index.html#e2e-networks",
+    "title": "traffic-infra",
+    "section": "",
+    "text": "Node Plan: E1LC-2.6GB\nConfiguration: 2 vCPU, 6 GB RAM, 150 GB Root Volume\nOS: Ubuntu 24.04 x86_64\nPlan: ₹450.32 per 30 days\nCreated On: 2025-10-04 11:14:12\nReference: Docs\n\nReserved Public IP\n\nPublic IP address: 1x\nPlan: ₹199.0 per month\nReference: Docs",
+    "crumbs": [
+      "traffic-infra"
+    ]
+  },
+  {
+    "objectID": "index.html#grafana",
+    "href": "index.html#grafana",
+    "title": "traffic-infra",
+    "section": "Grafana",
+    "text": "Grafana\n\nURL: https://traffickowshik.grafana.net/\nPlan: Free",
+    "crumbs": [
+      "traffic-infra"
+    ]
+  }
+]
