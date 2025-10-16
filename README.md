@@ -26,3 +26,7 @@
 
 - URL: <https://traffickowshik.grafana.net/>
 - Plan: `Free`
+
+# Networking
+
+- [Duck DNS – Free dynamic DNS hosted on AWS.](https://www.duckdns.org/)
